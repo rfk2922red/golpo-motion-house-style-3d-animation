@@ -1,0 +1,1538 @@
+{
+ "title": "মায়ের অবসর",
+ "composition": "MaayerShort",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "finalScale": 1.3333,
+ "totalFrames": 5314,
+ "durationSec": 177.13,
+ "audio": {
+  "mix": "maayer/mix_v2.wav",
+  "voice": "maayer/voice.mp3",
+  "music": "maayer/music.flac",
+  "sfx": "maayer/sfx.flac",
+  "note": "mix_v2.wav = voice + music + SFX for the 5314-frame version (2 s rain tail after the voice for the bed scene).",
+  "levels": {
+   "finalLUFS": -15.3,
+   "peakDBFS": -1.0,
+   "voiceGainDB": 4,
+   "musicDuckDB": 9,
+   "sfxDuckDB": 4,
+   "musicLUFS": -28,
+   "sfxLUFS": -29
+  }
+ },
+ "flashAtFrame": 66,
+ "kicks": [
+  {
+   "sec": 28.4,
+   "g": 0.35
+  },
+  {
+   "sec": 30.1,
+   "g": 0.35
+  },
+  {
+   "sec": 32.0,
+   "g": 0.35
+  },
+  {
+   "sec": 82.6,
+   "g": 0.7
+  },
+  {
+   "sec": 141.1,
+   "g": 1.0
+  }
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "startFrame": 0,
+   "endFrame": 181,
+   "startSec": 0.0,
+   "endSec": 6.03,
+   "light": "rain",
+   "place": "village",
+   "era": "child",
+   "cast": [
+    "mother",
+    "nusrat",
+    "rahat",
+    "mim",
+    "father"
+   ],
+   "house": "tin",
+   "rain": true,
+   "sentences": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 2,
+   "startFrame": 181,
+   "endFrame": 578,
+   "startSec": 6.03,
+   "endSec": 19.27,
+   "light": "day",
+   "place": "village",
+   "era": "child",
+   "cast": [
+    "mother",
+    "nusrat",
+    "rahat",
+    "mim"
+   ],
+   "house": "tin",
+   "rain": false,
+   "sentences": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "id": 3,
+   "startFrame": 578,
+   "endFrame": 696,
+   "startSec": 19.27,
+   "endSec": 23.2,
+   "light": "rain",
+   "place": "village",
+   "era": "child",
+   "cast": [
+    "mother"
+   ],
+   "house": "tin",
+   "rain": false,
+   "sentences": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": 4,
+   "startFrame": 696,
+   "endFrame": 756,
+   "startSec": 23.2,
+   "endSec": 25.2,
+   "light": "day",
+   "place": "village",
+   "era": "child",
+   "cast": [
+    "mother"
+   ],
+   "house": "tin",
+   "rain": false,
+   "sentences": []
+  },
+  {
+   "id": 5,
+   "startFrame": 756,
+   "endFrame": 1087,
+   "startSec": 25.2,
+   "endSec": 36.23,
+   "light": "lamp",
+   "place": "interior",
+   "era": "child",
+   "cast": [
+    "mother",
+    "nusrat",
+    "rahat",
+    "mim"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    7,
+    8
+   ]
+  },
+  {
+   "id": 6,
+   "startFrame": 1087,
+   "endFrame": 1782,
+   "startSec": 36.23,
+   "endSec": 59.4,
+   "light": "lamp",
+   "place": "interior",
+   "era": "child",
+   "cast": [
+    "mother",
+    "nusrat",
+    "rahat",
+    "mim"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "id": 7,
+   "startFrame": 1782,
+   "endFrame": 2147,
+   "startSec": 59.4,
+   "endSec": 71.57,
+   "light": "lamp",
+   "place": "interior",
+   "era": "child",
+   "cast": [
+    "mother",
+    "nusrat",
+    "rahat",
+    "mim"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "id": 8,
+   "startFrame": 2147,
+   "endFrame": 2275,
+   "startSec": 71.57,
+   "endSec": 75.83,
+   "light": "lamp",
+   "place": "interior",
+   "era": "teen",
+   "cast": [
+    "mother",
+    "nusrat"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    20
+   ]
+  },
+  {
+   "id": 9,
+   "startFrame": 2275,
+   "endFrame": 2506,
+   "startSec": 75.83,
+   "endSec": 83.53,
+   "light": "day",
+   "place": "road",
+   "era": "teen",
+   "cast": [
+    "mother",
+    "nusrat"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    21,
+    22
+   ]
+  },
+  {
+   "id": 10,
+   "startFrame": 2506,
+   "endFrame": 2588,
+   "startSec": 83.53,
+   "endSec": 86.27,
+   "light": "day",
+   "place": "town",
+   "era": "teen",
+   "cast": [
+    "nusrat"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    23
+   ]
+  },
+  {
+   "id": 11,
+   "startFrame": 2588,
+   "endFrame": 2768,
+   "startSec": 86.27,
+   "endSec": 92.27,
+   "light": "day",
+   "place": "town",
+   "era": "teen",
+   "cast": [
+    "nusrat",
+    "rahat"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    24,
+    25
+   ]
+  },
+  {
+   "id": 12,
+   "startFrame": 2768,
+   "endFrame": 2932,
+   "startSec": 92.27,
+   "endSec": 97.73,
+   "light": "rain",
+   "place": "town",
+   "era": "teen",
+   "cast": [
+    "rahat"
+   ],
+   "house": null,
+   "rain": true,
+   "sentences": [
+    26
+   ]
+  },
+  {
+   "id": 13,
+   "startFrame": 2932,
+   "endFrame": 3322,
+   "startSec": 97.73,
+   "endSec": 110.73,
+   "light": "golden",
+   "place": "village",
+   "era": "teen",
+   "cast": [
+    "mother",
+    "mim"
+   ],
+   "house": "tin",
+   "rain": false,
+   "sentences": [
+    27,
+    28,
+    29,
+    30
+   ]
+  },
+  {
+   "id": 14,
+   "startFrame": 3322,
+   "endFrame": 3396,
+   "startSec": 110.73,
+   "endSec": 113.2,
+   "light": "day",
+   "place": "town",
+   "era": "adult",
+   "cast": [
+    "nusrat"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    31
+   ]
+  },
+  {
+   "id": 15,
+   "startFrame": 3396,
+   "endFrame": 3495,
+   "startSec": 113.2,
+   "endSec": 116.5,
+   "light": "day",
+   "place": "town",
+   "era": "adult",
+   "cast": [
+    "rahat"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    32
+   ]
+  },
+  {
+   "id": 16,
+   "startFrame": 3495,
+   "endFrame": 3572,
+   "startSec": 116.5,
+   "endSec": 119.07,
+   "light": "golden",
+   "place": "town",
+   "era": "adult",
+   "cast": [
+    "mim"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    33
+   ]
+  },
+  {
+   "id": 17,
+   "startFrame": 3572,
+   "endFrame": 3719,
+   "startSec": 119.07,
+   "endSec": 123.97,
+   "light": "golden",
+   "place": "town",
+   "era": "adult",
+   "cast": [
+    "nusrat"
+   ],
+   "house": null,
+   "rain": false,
+   "sentences": [
+    34
+   ]
+  },
+  {
+   "id": 18,
+   "startFrame": 3719,
+   "endFrame": 3916,
+   "startSec": 123.97,
+   "endSec": 130.53,
+   "light": "golden",
+   "place": "village",
+   "era": "old",
+   "cast": [
+    "mother"
+   ],
+   "house": "tin",
+   "rain": false,
+   "sentences": [
+    35,
+    36
+   ]
+  },
+  {
+   "id": 19,
+   "startFrame": 3916,
+   "endFrame": 4144,
+   "startSec": 130.53,
+   "endSec": 138.13,
+   "light": "day",
+   "place": "road",
+   "era": "adult",
+   "cast": [
+    "nusrat",
+    "rahat",
+    "mim",
+    "mother"
+   ],
+   "house": "tin",
+   "rain": false,
+   "sentences": [
+    37,
+    38
+   ]
+  },
+  {
+   "id": 20,
+   "startFrame": 4144,
+   "endFrame": 4626,
+   "startSec": 138.13,
+   "endSec": 154.2,
+   "light": "golden",
+   "place": "village",
+   "era": "old",
+   "cast": [
+    "mother",
+    "nusrat",
+    "rahat",
+    "mim"
+   ],
+   "house": "pucca",
+   "rain": false,
+   "sentences": [
+    39,
+    40,
+    41,
+    42,
+    43
+   ]
+  },
+  {
+   "id": 21,
+   "startFrame": 4626,
+   "endFrame": 4953,
+   "startSec": 154.2,
+   "endSec": 165.1,
+   "light": "golden",
+   "place": "village",
+   "era": "old",
+   "cast": [
+    "mother",
+    "nusrat",
+    "rahat",
+    "mim"
+   ],
+   "house": "pucca",
+   "rain": false,
+   "sentences": [
+    44,
+    45,
+    46
+   ]
+  },
+  {
+   "id": 22,
+   "startFrame": 4953,
+   "endFrame": 5254,
+   "startSec": 165.1,
+   "endSec": 175.13,
+   "light": "rain",
+   "place": "village",
+   "era": "old",
+   "cast": [
+    "mother",
+    "nusrat",
+    "rahat",
+    "mim"
+   ],
+   "house": "pucca",
+   "rain": true,
+   "sentences": [
+    47,
+    48,
+    49
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "i": 0,
+   "para": 0,
+   "start": 0.0,
+   "end": 2.15,
+   "text": "বাবা চলে গিয়েছিলো এক বর্ষার রাতে।",
+   "startFrame": 0,
+   "endFrame": 64,
+   "shot": 1
+  },
+  {
+   "i": 1,
+   "para": 0,
+   "start": 3.16,
+   "end": 5.02,
+   "text": "যাওয়ার সময় একটা ছাতাও রেখে যায়নি।",
+   "startFrame": 95,
+   "endFrame": 151,
+   "shot": 1
+  },
+  {
+   "i": 2,
+   "para": 1,
+   "start": 6.02,
+   "end": 8.5,
+   "text": "গ্রামের শেষ মাথায়, টিনের চালের একটা ছোটো ঘর।",
+   "startFrame": 181,
+   "endFrame": 255,
+   "shot": 2
+  },
+  {
+   "i": 3,
+   "para": 1,
+   "start": 9.54,
+   "end": 13.91,
+   "text": "সেখানে থাকতো ফাতেমা, তার বড়ো মেয়ে নুসরাত, ছেলে রাহাত, আর কোলের মেয়ে মিম।",
+   "startFrame": 286,
+   "endFrame": 417,
+   "shot": 2
+  },
+  {
+   "i": 4,
+   "para": 1,
+   "start": 14.94,
+   "end": 18.25,
+   "text": "বাবা চলে যাওয়ার পর, সংসারের সব ভার এসে পড়লো মায়ের কাঁধে।",
+   "startFrame": 448,
+   "endFrame": 548,
+   "shot": 2
+  },
+  {
+   "i": 5,
+   "para": 2,
+   "start": 19.27,
+   "end": 20.82,
+   "text": "ভোর হওয়ার আগেই মা উঠে যেতো।",
+   "startFrame": 578,
+   "endFrame": 625,
+   "shot": 3
+  },
+  {
+   "i": 6,
+   "para": 2,
+   "start": 21.82,
+   "end": 26.22,
+   "text": "কখনো ধান ভানতো, কখনো পরের বাড়িতে কাজ করতো, আর রাতে বসে শেলাই করতো।",
+   "startFrame": 655,
+   "endFrame": 787,
+   "shot": 3
+  },
+  {
+   "i": 7,
+   "para": 2,
+   "start": 27.18,
+   "end": 30.55,
+   "text": "টিনের চাল চুঁইয়ে বৃষ্টির জল পড়লে, মা একটা পাতিল পেতে দিতো।",
+   "startFrame": 815,
+   "endFrame": 916,
+   "shot": 5
+  },
+  {
+   "i": 8,
+   "para": 2,
+   "start": 31.57,
+   "end": 35.2,
+   "text": "তিন ভাইবোন, সেই জলের টুপটাপ শব্দ শুনতে শুনতে, ঘুমিয়ে পড়তো।",
+   "startFrame": 947,
+   "endFrame": 1056,
+   "shot": 5
+  },
+  {
+   "i": 9,
+   "para": 3,
+   "start": 36.22,
+   "end": 38.23,
+   "text": "একবার মাসের শেষে, চাল ফুরিয়ে গেলো।",
+   "startFrame": 1087,
+   "endFrame": 1147,
+   "shot": 6
+  },
+  {
+   "i": 10,
+   "para": 3,
+   "start": 39.22,
+   "end": 41.06,
+   "text": "মা বললো, \"আমার খিদে নেই রে।\"",
+   "startFrame": 1177,
+   "endFrame": 1232,
+   "shot": 6
+  },
+  {
+   "i": 11,
+   "para": 3,
+   "start": 42.08,
+   "end": 45.56,
+   "text": "তিন জনের প্লেটে ভাত বেড়ে দিয়ে, নিজে এক গ্লাস পানি খেয়ে শুএ পড়লো।",
+   "startFrame": 1262,
+   "endFrame": 1367,
+   "shot": 6
+  },
+  {
+   "i": 12,
+   "para": 3,
+   "start": 46.6,
+   "end": 47.99,
+   "text": "নুসরাত তখন ক্লাস সিক্সে।",
+   "startFrame": 1398,
+   "endFrame": 1440,
+   "shot": 6
+  },
+  {
+   "i": 13,
+   "para": 3,
+   "start": 48.99,
+   "end": 49.9,
+   "text": "সে সবই বুঝলো।",
+   "startFrame": 1470,
+   "endFrame": 1497,
+   "shot": 6
+  },
+  {
+   "i": 14,
+   "para": 3,
+   "start": 50.9,
+   "end": 53.15,
+   "text": "সেদিন রাতে, সে মোনে মোনে একটা কথা বললো।",
+   "startFrame": 1527,
+   "endFrame": 1594,
+   "shot": 6
+  },
+  {
+   "i": 15,
+   "para": 3,
+   "start": 54.16,
+   "end": 56.16,
+   "text": "আমি ধীরে ধীরে অনেক বড়ো হবো একদিন।",
+   "startFrame": 1625,
+   "endFrame": 1685,
+   "shot": 6
+  },
+  {
+   "i": 16,
+   "para": 3,
+   "start": 57.18,
+   "end": 58.39,
+   "text": "মাকে আর কাঁদতে দেবো না।",
+   "startFrame": 1715,
+   "endFrame": 1752,
+   "shot": 6
+  },
+  {
+   "i": 17,
+   "para": 4,
+   "start": 59.39,
+   "end": 62.39,
+   "text": "কুপির আলোতে তিনজন পোড়তো, পাশে বসে মা শেলাই করতো।",
+   "startFrame": 1782,
+   "endFrame": 1872,
+   "shot": 7
+  },
+  {
+   "i": 18,
+   "para": 4,
+   "start": 63.37,
+   "end": 66.79,
+   "text": "মা বেশি পড়েনি, কিন্তু রোজ জিজ্ঞেস করতো, আজ কীই শিখলি রে?",
+   "startFrame": 1901,
+   "endFrame": 2004,
+   "shot": 7
+  },
+  {
+   "i": 19,
+   "para": 4,
+   "start": 67.77,
+   "end": 70.58,
+   "text": "মায়ের কাছে, সেই প্রশ্নটাই ছিলো সবচেয়ে বড়ো ভরসা।",
+   "startFrame": 2033,
+   "endFrame": 2117,
+   "shot": 7
+  },
+  {
+   "i": 20,
+   "para": 4,
+   "start": 71.58,
+   "end": 74.83,
+   "text": "একদিন মা নিজের চুড়ি বেচে, নুসরাতের কলেজের ফর্ম তুলে দিলো।",
+   "startFrame": 2147,
+   "endFrame": 2245,
+   "shot": 8
+  },
+  {
+   "i": 21,
+   "para": 4,
+   "start": 75.84,
+   "end": 77.19,
+   "text": "নুসরাত শহরে চোলে গেলো।",
+   "startFrame": 2275,
+   "endFrame": 2316,
+   "shot": 9
+  },
+  {
+   "i": 22,
+   "para": 4,
+   "start": 78.2,
+   "end": 82.56,
+   "text": "যাওয়ার দিন মা আঁচলের কোণে বাঁধা কিছু টাকা গুঁজে দিয়ে বললো, ভালো কোরে পোড়িস মা।",
+   "startFrame": 2346,
+   "endFrame": 2477,
+   "shot": 9
+  },
+  {
+   "i": 23,
+   "para": 5,
+   "start": 83.55,
+   "end": 85.22,
+   "text": "শহরের দিন এতো সহজ ছিলো না।",
+   "startFrame": 2506,
+   "endFrame": 2557,
+   "shot": 10
+  },
+  {
+   "i": 24,
+   "para": 5,
+   "start": 86.25,
+   "end": 88.7,
+   "text": "মেসের ছোটো ঘর, ঘরের ভাড়া, বাসের ভিড়।",
+   "startFrame": 2588,
+   "endFrame": 2661,
+   "shot": 11
+  },
+  {
+   "i": 25,
+   "para": 5,
+   "start": 89.7,
+   "end": 91.28,
+   "text": "নুসরাত টিউশোনি করে পড়তো।",
+   "startFrame": 2691,
+   "endFrame": 2738,
+   "shot": 11
+  },
+  {
+   "i": 26,
+   "para": 5,
+   "start": 92.25,
+   "end": 96.76,
+   "text": "রাহাতও একটু বড়ো হোয়ে চোলে এলো শহরে , সকালে ক্লাস, আর রাতে পার্টটাইম কাজ।",
+   "startFrame": 2768,
+   "endFrame": 2903,
+   "shot": 12
+  },
+  {
+   "i": 27,
+   "para": 5,
+   "start": 97.75,
+   "end": 99.69,
+   "text": "আর মিম গ্রামে মায়ের কাছে থেকে পোড়তো।",
+   "startFrame": 2932,
+   "endFrame": 2991,
+   "shot": 13
+  },
+  {
+   "i": 28,
+   "para": 5,
+   "start": 100.71,
+   "end": 102.7,
+   "text": "নম্বর পেলে, সবার আগে মাকে দেখাতো।",
+   "startFrame": 3021,
+   "endFrame": 3081,
+   "shot": 13
+  },
+  {
+   "i": 29,
+   "para": 5,
+   "start": 103.69,
+   "end": 107.19,
+   "text": "তিনজনেই জানতো, কোনো একজন থেমে গেলে, বাকিদের কাঁধে ভার বাড়বে।",
+   "startFrame": 3111,
+   "endFrame": 3216,
+   "shot": 13
+  },
+  {
+   "i": 30,
+   "para": 6,
+   "start": 108.19,
+   "end": 109.72,
+   "text": "কয়এক বছর এভাবেই কেটে গেলো।",
+   "startFrame": 3246,
+   "endFrame": 3292,
+   "shot": 13
+  },
+  {
+   "i": 31,
+   "para": 6,
+   "start": 110.75,
+   "end": 112.19,
+   "text": "নুসরাত চাকরি পেলো ব্যাংকে।",
+   "startFrame": 3322,
+   "endFrame": 3366,
+   "shot": 14
+  },
+  {
+   "i": 32,
+   "para": 6,
+   "start": 113.19,
+   "end": 115.47,
+   "text": "রাহাত ইঞ্জিনিয়ার হয়ে ঢুকলো একটা কোম্পানিতে।",
+   "startFrame": 3396,
+   "endFrame": 3464,
+   "shot": 15
+  },
+  {
+   "i": 33,
+   "para": 6,
+   "start": 116.5,
+   "end": 118.0,
+   "text": "আর মিম ভর্তি হলো মেডিকেলে।",
+   "startFrame": 3495,
+   "endFrame": 3540,
+   "shot": 16
+  },
+  {
+   "i": 34,
+   "para": 7,
+   "start": 119.07,
+   "end": 122.96,
+   "text": "প্রথম বেতনের দিন, নুসরাত ফোন কোরে বললো, মা, এবার তুমি বিশ্রাম নাও।",
+   "startFrame": 3572,
+   "endFrame": 3689,
+   "shot": 17
+  },
+  {
+   "i": 35,
+   "para": 7,
+   "start": 123.97,
+   "end": 126.32,
+   "text": "মা হেশে বোললো, আরে, আমি তো ঠিকই আছি।",
+   "startFrame": 3719,
+   "endFrame": 3790,
+   "shot": 18
+  },
+  {
+   "i": 36,
+   "para": 7,
+   "start": 127.33,
+   "end": 129.51,
+   "text": "কিন্তু ফোনের ওপাশে, মায়ের গলা কাঁপছিলো।",
+   "startFrame": 3820,
+   "endFrame": 3885,
+   "shot": 18
+  },
+  {
+   "i": 37,
+   "para": 8,
+   "start": 130.53,
+   "end": 133.4,
+   "text": "এক শুক্রবার সকালে, তিন ভাইবোন একসাথে গ্রামে ফিরলো।",
+   "startFrame": 3916,
+   "endFrame": 4002,
+   "shot": 19
+  },
+  {
+   "i": 38,
+   "para": 8,
+   "start": 134.39,
+   "end": 137.09,
+   "text": "উঠানে দাঁড়িয়ে ওরা দেখলো, মা তখোনো শেলাই কোরছে।",
+   "startFrame": 4032,
+   "endFrame": 4113,
+   "shot": 19
+  },
+  {
+   "i": 39,
+   "para": 8,
+   "start": 138.13,
+   "end": 141.4,
+   "text": "রাহাত মায়ের হাত থেকে শুই-শুতো শোরিয়ে নিয়ে, একটা চাবি তুলে দিলো।",
+   "startFrame": 4144,
+   "endFrame": 4242,
+   "shot": 20
+  },
+  {
+   "i": 40,
+   "para": 8,
+   "start": 142.42,
+   "end": 143.43,
+   "text": "নতুন ঘরের চাবি।",
+   "startFrame": 4273,
+   "endFrame": 4303,
+   "shot": 20
+  },
+  {
+   "i": 41,
+   "para": 8,
+   "start": 144.43,
+   "end": 147.7,
+   "text": "ছাদওয়ালা পাকা ঘর, যেখানে বৃষ্টির জল আর চুঁইয়ে পোড়বে না।",
+   "startFrame": 4333,
+   "endFrame": 4431,
+   "shot": 20
+  },
+  {
+   "i": 42,
+   "para": 9,
+   "start": 148.71,
+   "end": 150.13,
+   "text": "মা অনেকক্ষণ চুপ করে রইলো।",
+   "startFrame": 4461,
+   "endFrame": 4504,
+   "shot": 20
+  },
+  {
+   "i": 43,
+   "para": 9,
+   "start": 151.14,
+   "end": 153.2,
+   "text": "তারপর বললো, আমি তো কিছুই করিনি রে।",
+   "startFrame": 4534,
+   "endFrame": 4596,
+   "shot": 20
+  },
+  {
+   "i": 44,
+   "para": 10,
+   "start": 154.21,
+   "end": 157.57,
+   "text": "নুসরাত মায়ের হাত ধোরে বললো, মা, তুমি আমাদের শবকিছু ছিলে।",
+   "startFrame": 4626,
+   "endFrame": 4727,
+   "shot": 21
+  },
+  {
+   "i": 45,
+   "para": 10,
+   "start": 158.58,
+   "end": 162.2,
+   "text": "তোমার জন্যই আমরা আজ এতোটা এগোতে পেরেছি, তুমি অনেক কষ্টো কোরেছো।",
+   "startFrame": 4757,
+   "endFrame": 4866,
+   "shot": 21
+  },
+  {
+   "i": 46,
+   "para": 10,
+   "start": 163.22,
+   "end": 164.11,
+   "text": "এবার তোমার ছুটি।",
+   "startFrame": 4897,
+   "endFrame": 4923,
+   "shot": 21
+  },
+  {
+   "i": 47,
+   "para": 11,
+   "start": 165.11,
+   "end": 166.38,
+   "text": "সেই রাতে বৃষ্টি নামলো।",
+   "startFrame": 4953,
+   "endFrame": 4991,
+   "shot": 22
+  },
+  {
+   "i": 48,
+   "para": 11,
+   "start": 167.39,
+   "end": 171.71,
+   "text": "এই প্রথম, মা শুয়ে শুয়ে, টিনের চালের টুপটাপ শব্দ ছাড়াই বৃষ্টির আওয়াজ শুনলো।",
+   "startFrame": 5022,
+   "endFrame": 5151,
+   "shot": 22
+  },
+  {
+   "i": 49,
+   "para": 11,
+   "start": 172.75,
+   "end": 174.21,
+   "text": "আর নিশ্চিন্তে ঘুমিয়ে পোড়লো।",
+   "startFrame": 5182,
+   "endFrame": 5226,
+   "shot": 22
+  }
+ ],
+ "sfxCues": [
+  {
+   "t": 0,
+   "frame": 0,
+   "name": "rain_tin",
+   "gain_db": -18.4,
+   "note": "night rain on the tin roof, hook"
+  },
+  {
+   "t": 0.1,
+   "frame": 3,
+   "name": "thunder_low",
+   "gain_db": -18.4,
+   "note": "father leaves on a rainy night"
+  },
+  {
+   "t": 1.05,
+   "frame": 32,
+   "name": "door_creak",
+   "gain_db": -20.0,
+   "note": "the door he left through"
+  },
+  {
+   "t": 4.36,
+   "frame": 131,
+   "name": "peg_tick",
+   "gain_db": -24.4,
+   "note": "empty peg: no umbrella left"
+  },
+  {
+   "t": 6.02,
+   "frame": 181,
+   "name": "village_air",
+   "gain_db": -23.1,
+   "note": "soft breeze through trees"
+  },
+  {
+   "t": 7.2,
+   "frame": 216,
+   "name": "birds",
+   "gain_db": -23.1,
+   "note": "morning birds, sparse"
+  },
+  {
+   "t": 19.27,
+   "frame": 578,
+   "name": "night_crickets",
+   "gain_db": -30.5,
+   "note": "pre-dawn"
+  },
+  {
+   "t": 20.17,
+   "frame": 605,
+   "name": "dheki_thump",
+   "gain_db": -14.0,
+   "note": "rhythmic rice husking, every ~1.45 s"
+  },
+  {
+   "t": 24.68,
+   "frame": 741,
+   "name": "well_water",
+   "gain_db": -16.5,
+   "note": "bucket into the well"
+  },
+  {
+   "t": 25.21,
+   "frame": 756,
+   "name": "rain_tin_soft",
+   "gain_db": -20.0,
+   "note": "rain returns, inside the hut"
+  },
+  {
+   "t": 28.4,
+   "frame": 852,
+   "name": "drip_in_pot",
+   "gain_db": -11.7,
+   "note": "matches camera kicks at 28.4/30.1/32.0"
+  },
+  {
+   "t": 36.22,
+   "frame": 1087,
+   "name": "night_crickets",
+   "gain_db": -26.0,
+   "note": "night in the hut"
+  },
+  {
+   "t": 36.72,
+   "frame": 1102,
+   "name": "rice_tin_empty",
+   "gain_db": -13.2,
+   "note": "চাল ফুরিয়ে গেলো"
+  },
+  {
+   "t": 43.08,
+   "frame": 1292,
+   "name": "plates_clink",
+   "gain_db": -17.7,
+   "note": "ভাত বেড়ে দিয়ে"
+  },
+  {
+   "t": 44.58,
+   "frame": 1337,
+   "name": "water_glass",
+   "gain_db": -20.0,
+   "note": "she drinks only water"
+  },
+  {
+   "t": 48.79,
+   "frame": 1464,
+   "name": "heartbeat",
+   "gain_db": -17.1,
+   "note": "সে সবই বুঝলো, Nusrat understands"
+  },
+  {
+   "t": 59.39,
+   "frame": 1782,
+   "name": "study_foley",
+   "gain_db": -20.0,
+   "note": "pages, pencil, needle beside the kupi lamp"
+  },
+  {
+   "t": 71.9,
+   "frame": 2157,
+   "name": "bangles",
+   "gain_db": -15.4,
+   "note": "চুড়ি বেচে"
+  },
+  {
+   "t": 72.45,
+   "frame": 2174,
+   "name": "notes_counted",
+   "gain_db": -18.4,
+   "note": "seller counts the money for the bangles"
+  },
+  {
+   "t": 73.7,
+   "frame": 2211,
+   "name": "form_paper",
+   "gain_db": -18.4,
+   "note": "কলেজের ফর্ম, handed to Nusrat"
+  },
+  {
+   "t": 78.7,
+   "frame": 2361,
+   "name": "anchal_knot_money",
+   "gain_db": -20.9,
+   "note": "knot untied, notes pressed into Nusrat palm (78.2-80.9 s)"
+  },
+  {
+   "t": 77.24,
+   "frame": 2317,
+   "name": "bus_engine",
+   "gain_db": -16.5,
+   "note": "bus arrives, horn x2, leaves at 82.6 (camera kick)"
+  },
+  {
+   "t": 82.6,
+   "frame": 2478,
+   "name": "bus_door_thud",
+   "gain_db": -14.9,
+   "note": "matches the 82.6 s kick"
+  },
+  {
+   "t": 83.55,
+   "frame": 2506,
+   "name": "city_ambience",
+   "gain_db": -24.4,
+   "note": "traffic hum"
+  },
+  {
+   "t": 94.25,
+   "frame": 2828,
+   "name": "rain_city",
+   "gain_db": -17.7,
+   "note": "Rahat comes to the city in the rain"
+  },
+  {
+   "t": 97.75,
+   "frame": 2932,
+   "name": "village_evening",
+   "gain_db": -23.1,
+   "note": "golden-hour air, birds, first crickets"
+  },
+  {
+   "t": 103.69,
+   "frame": 3111,
+   "name": "three_at_work",
+   "gain_db": -21.9,
+   "note": "Nusrat pen, Rahat keys, Mim page: one after another (103.7-107.2 s)"
+  },
+  {
+   "t": 110.75,
+   "frame": 3322,
+   "name": "office_foley",
+   "gain_db": -24.4,
+   "note": "bank murmur + engineer typing"
+  },
+  {
+   "t": 115.09,
+   "frame": 3453,
+   "name": "machine_part_clink",
+   "gain_db": -20.0,
+   "note": "Rahat handles the machine part (114.8-116.5 s)"
+  },
+  {
+   "t": 116.5,
+   "frame": 3495,
+   "name": "medical_gate_crowd",
+   "gain_db": -24.4,
+   "note": "Mim at the medical college"
+  },
+  {
+   "t": 118.12,
+   "frame": 3544,
+   "name": "phone_ring",
+   "gain_db": -20.0,
+   "note": "first salary call to mother"
+  },
+  {
+   "t": 124.87,
+   "frame": 3746,
+   "name": "soft_laugh",
+   "gain_db": -21.9,
+   "note": "মা হেসে বললো"
+  },
+  {
+   "t": 127.93,
+   "frame": 3838,
+   "name": "sniff",
+   "gain_db": -23.1,
+   "note": "মায়ের গলা কাঁপছিলো"
+  },
+  {
+   "t": 130.53,
+   "frame": 3916,
+   "name": "paddy_wind",
+   "gain_db": -20.9,
+   "note": "the three walk home through the paddy"
+  },
+  {
+   "t": 138.45,
+   "frame": 4154,
+   "name": "needle_taken",
+   "gain_db": -23.1,
+   "note": "Rahat takes the needle away (138.1-139.9 s)"
+  },
+  {
+   "t": 141.1,
+   "frame": 4233,
+   "name": "key_in_palm",
+   "gain_db": -12.4,
+   "note": "matches the 141.1 s camera kick"
+  },
+  {
+   "t": 154.31,
+   "frame": 4629,
+   "name": "hug",
+   "gain_db": -18.4,
+   "note": "নুসরাত মায়ের হাত ধোরে"
+  },
+  {
+   "t": 165.11,
+   "frame": 4953,
+   "name": "rain_pucca_soft",
+   "gain_db": -18.4,
+   "note": "rain on the new roof: no drips, no tin"
+  },
+  {
+   "t": 173.1,
+   "frame": 5193,
+   "name": "tear_wipe_bed",
+   "gain_db": -24.4,
+   "note": "mother smiles and wipes a tear, then sleeps (172.4 s on)"
+  }
+ ],
+ "music": [
+  {
+   "sec": [
+    0,
+    6
+   ],
+   "mood": "lonely: low D drone, one falling flute note"
+  },
+  {
+   "sec": [
+    6,
+    19.3
+   ],
+   "mood": "quiet village morning, sparse bansuri"
+  },
+  {
+   "sec": [
+    19.3,
+    36.2
+   ],
+   "mood": "dawn work, soft plucks around the drips"
+  },
+  {
+   "sec": [
+    36.2,
+    58.3
+   ],
+   "mood": "hunger and the vow: low pads, one long flute line, rising note on the vow"
+  },
+  {
+   "sec": [
+    58.3,
+    82.3
+   ],
+   "mood": "warm lamp-light hope, then the bus swell and fall"
+  },
+  {
+   "sec": [
+    82.3,
+    95.6
+   ],
+   "mood": "town: light muted pulse, uncertain"
+  },
+  {
+   "sec": [
+    95.6,
+    108.6
+   ],
+   "mood": "village evening, studying, gently hopeful"
+  },
+  {
+   "sec": [
+    108.6,
+    119.0
+   ],
+   "mood": "success: lift to D major, brighter plucks and flute"
+  },
+  {
+   "sec": [
+    119.0,
+    130.5
+   ],
+   "mood": "the phone call: hushed piano, trembling flute"
+  },
+  {
+   "sec": [
+    130.5,
+    154.2
+   ],
+   "mood": "walking home, the key: soft swell, quiet piano at 141.1 s"
+  },
+  {
+   "sec": [
+    154.2,
+    165.1
+   ],
+   "mood": "the hug: strings climb to the peak on \"তুমি আমাদের সবকিছু ছিলে\", rest on \"এবার তোমার ছুটি\""
+  },
+  {
+   "sec": [
+    165.1,
+    175.1
+   ],
+   "mood": "rain on the new roof, falling piano phrase, flute resolves on D"
+  }
+ ],
+ "xfade": {
+  "9": 8,
+  "10": 6,
+  "13": 8,
+  "14": 8,
+  "16": 8,
+  "17": 8,
+  "18": 8,
+  "19": 8,
+  "22": 10
+ },
+ "sceneChangesV2": [
+  {
+   "id": "8a",
+   "sec": [
+    71.58,
+    73.2
+   ],
+   "frames": [
+    2147,
+    2196
+   ],
+   "text": "Bangle sale at a stall: mother gives her bangles, the seller counts notes into her palm"
+  },
+  {
+   "id": "8b",
+   "sec": [
+    73.2,
+    75.84
+   ],
+   "frames": [
+    2196,
+    2275
+   ],
+   "text": "form handed to Nusrat (hands CU, existing)"
+  },
+  {
+   "id": "9b",
+   "sec": [
+    78.2,
+    80.9
+   ],
+   "frames": [
+    2346,
+    2427
+   ],
+   "text": "CU hands: mother unties the knot in her anchal, presses notes into Nusrat palm and closes her fingers"
+  },
+  {
+   "id": "9c",
+   "sec": [
+    80.9,
+    82.56
+   ],
+   "frames": [
+    2427,
+    2477
+   ],
+   "text": "two-shot, holding hands, both crying (existing)"
+  },
+  {
+   "id": "13b",
+   "sec": [
+    103.69,
+    104.9
+   ],
+   "frames": [
+    3111,
+    3147
+   ],
+   "text": "Nusrat writing at the mess table, focused"
+  },
+  {
+   "id": "13c",
+   "sec": [
+    104.9,
+    106.1
+   ],
+   "frames": [
+    3147,
+    3183
+   ],
+   "text": "Rahat at his night part-time job (small computer shop), focused"
+  },
+  {
+   "id": "13d",
+   "sec": [
+    106.1,
+    107.19
+   ],
+   "frames": [
+    3183,
+    3216
+   ],
+   "text": "Mim studying at the lamp, mother sewing beside her"
+  },
+  {
+   "id": "15a",
+   "sec": [
+    113.19,
+    114.8
+   ],
+   "frames": [
+    3396,
+    3444
+   ],
+   "text": "Rahat seated at a computer (CAD drawing of a gear), machine parts on the desk"
+  },
+  {
+   "id": "15b",
+   "sec": [
+    114.8,
+    116.5
+   ],
+   "frames": [
+    3444,
+    3495
+   ],
+   "text": "hands holding a metal machine part, caliper"
+  },
+  {
+   "id": "20a",
+   "sec": [
+    138.13,
+    139.9
+   ],
+   "frames": [
+    4144,
+    4197
+   ],
+   "text": "CU: mother sewing; Rahat gently takes the needle and cloth from her hand"
+  },
+  {
+   "id": "20b",
+   "sec": [
+    139.9,
+    141.6
+   ],
+   "frames": [
+    4197,
+    4248
+   ],
+   "text": "CU: key placed in her palm (camera kick 141.1 s)"
+  },
+  {
+   "id": "22u",
+   "sec": [
+    170.2,
+    172.4
+   ],
+   "frames": [
+    5107,
+    5172
+   ],
+   "text": "umbrella on the peg (shortened)"
+  },
+  {
+   "id": "23",
+   "sec": [
+    172.4,
+    177.13
+   ],
+   "frames": [
+    5172,
+    5314
+   ],
+   "text": "bed in the new house: mother smiling, wipes a tear at the corner of her eye, eyes close; rain on the window"
+  }
+ ]
+}
